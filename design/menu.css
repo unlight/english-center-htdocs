@@ -7,8 +7,11 @@
 	list-style: none;
 	color: #fff;
 	font-weight: bold;
-	white-space: nowrap;
 	/*font-family: Tahoma, Verdana, Arial, sans-serif;*/
+}
+
+#Menu li {
+	white-space: nowrap;
 }
 
 #Menu a {
@@ -68,4 +71,8 @@
 	background: #fff;
 	color: #333;
 	border-radius: 3px;
+}
+
+#Menu li ul li a {
+	display: block;
 }

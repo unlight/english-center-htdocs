@@ -230,3 +230,8 @@ ul.DataList {
 #Foot > .Row {
 	border: 5px dotted blue;
 }*/
+
+
+#SideSearchForm input[name="Search"] {
+	width: 120px;
+}
