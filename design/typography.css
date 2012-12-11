@@ -1,0 +1,57 @@
+body {
+	color: #000;
+	font-family: 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Tahoma, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 5px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ff0084;
+}
+
+
+h1, h2, h3 {
+	margin: 8px 0;
+}
+
+h4, h5, h6 {
+	margin: 5px 0;
+}
+
+h1 {
+	font-size: 1.5em;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.Pre {
+	white-space: pre;
+}
+
+.HasHeaders h2 {
+	font-size: 105%;
+}
+
+.FloatLeft {
+	float: left;
+}
+
+.FloatRight {
+	float: right;
+}
+
+ul {
+	padding-left: 30px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Расчет стоимости перевода - Лингвистический центр</title>
+	<link rel="shortcut icon" href="design/icon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="design/style.css" />
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/pinned-footer.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+</head>
+<body id="calculate_cost" class="CalculateCost">
+	<div id="Frame">
+	<div class="Head" id="Head"> <!-- Head -->
+		<div class="Row">
+			<strong class="SiteTitle"><a href="index.html" title="Лингвистический центр">Лингвистический центр</a></strong>
+		</div>
+		<div id="SiteMenuWrapper">
+		</div>
+	</div>
+	<div id="Body">
+		<div class="Row">
+			<div class="PanelColumn" id="Panel"> <!-- Panel -->
+
+		<div class="Box">
+			<h4>Информация</h4>
+			<ul>
+				<li><a href="about.html">О центре</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+				<li><a href="teachers.html">Преподаватели</a></li>
+				<li><a href="opinions.html">Отзывы</a></li>
+				<li><a class="Active" href="faq.html">Часто задаваемые вопросы</a></li>
+				<li><a href="calculate-cost.html">Расчет стоимости перевода</a></li>
+			</ul>
+		</div>
+
+			</div>
+			<div class="ContentColumn">
+				<!-- Breadcrumbs -->
+				<div class="BreadcrumbsWrapper">
+						<span class="Breadcrumbs">
+							<span class="CrumbLabel"><a href="index.html">Главная</a></span>
+							<span class="Crumb">›</span>
+							<span class="CrumbLabel"><a href="about.html">Информация</a></span>
+							<span class="Crumb">›</span>
+							<span class="CrumbLabel"><a href="calculate-cost.html">Расчет стоимости перевода</a></span>
+						</span>
+				</div>
+				<div id="Content"> <!-- Content -->
+
+						<h1>Расчёт стоимости перевода</h1>
+
+						<div class="Info">
+							<p>Стоимость перевода 1 страницы текста (~ 1800 символов) составляется 250 рублей, 
+								но зависит от типа текста (разговорный, технический), срочности и т.д.</p>
+							<p>Заполните форму ниже и узнайте приблизительную стоимость услуги.</p>
+						</div>
+						<form>
+							<ul>
+							<li><label for="Category">Категория</label>
+								<select name="Category" id="Category">
+									<option value="1">Не знаю</option>
+									<option value="2">Разговорный</option>
+									<option value="3">Технический</option>
+									<option value="4">Деловой</option>
+								</select>
+								<p class="Hint">Выберите стиль текста.</p>
+							</li>
+							<li>
+								<label>Направление</label>
+								<label class="RadioLabel" for="EnRu">
+									<input type="radio" name="Direction" value="1" id="EnRu" class="ValidateOne" />
+									Английский > Русский
+								</label>
+								<label class="RadioLabel" for="RuEn">
+									<input type="radio" name="Direction" value="2" id="RuEn" class="ValidateOne" />
+									Русский > Английский
+								</label>
+							</li>
+							<li>
+								<label for="NumberOfPages">Страницы</label>
+								<input type="text" id="NumberOfPages" name="NumberOfPages" class="Number ValidateRequired ValidateInteger" />
+							</li>
+							<li>
+								<label for="Urgent">Срочный</label>
+								<input type="checkbox" id="Urgent" name="Urgent" value="1" />
+							</li>
+							</ul>
+							<div class="Info" id="TotalPriceInfo" style="display:none">
+								Приблизительная стоимость перевода составит: <span id="TotalPriceValue">?</span> рублей.
+							</div>
+							<input name="CalculateCost" type="button" value="Рассчитать стоимость" class="Button" id="CalculateCostButton" />
+						</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Foot"> <!-- Foot -->
+		<div class="Row">
+			<small>Copyright &copy; 2011 - <span id="CurrentYear">текущий год</span>. 
+				Наш адрес: Саратов, ул. Лунная д. 95, офис 310, время работы: 10:00 - 20:00, телефон: 495-007.</small>
+		</div>	
+	</div>
+</div>
+
+</body>
+</html>

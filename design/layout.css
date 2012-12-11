@@ -1,0 +1,232 @@
+.Row {
+	width: 960px;
+}
+
+#Body .ContentColumn {
+   float: right;
+   width: 74%;
+}
+
+#Panel {
+	width: 24%;
+	float: left;
+}
+
+.Box {
+   border-radius: 2px;
+   background: #FAFFFF;
+   padding: 6px 10px;
+   margin: 0 0 10px;
+}
+
+.Box h4 {
+	border-bottom: 1px solid #eee;
+}
+
+.Box ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.Box ul li {
+	margin-bottom: 4px;
+}
+
+.HasCount li span {
+	float: right;
+	border-radius: 2px;
+	background: #fff;
+	padding: 0 4px;
+	border: 1px solid #eee;
+}
+
+.TagCloud li {
+	display: inline-block;
+	/*background: #FEFEFE;*/
+	padding: 0 4px;
+	border-radius: 2px;
+}
+
+.TagCloud li span {
+	display: none;
+}
+
+.SiteTitle {
+	background: url("logo.jpg") no-repeat scroll 0px 0px transparent;
+	padding-left: 90px;
+	font-size: 40px;
+	line-height: 65px;
+	font-weight: normal;
+	display: block;
+	height: 70px;
+	font-family: Impact, Arial;
+}
+
+.SiteTitle a {
+	text-decoration: none;
+	color: #72C8F5;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#SiteMenuWrapper {
+	background: #38ABE3;
+	border: 1px solid #333;
+	border-right: 0;
+	border-left: 0;
+	padding: 2px 0;
+}
+
+#Body {
+	padding: 20px 0 0 0;
+}
+
+/* ======================================================== Forms */
+form ul {
+	padding: 0;
+	list-style: none;
+}
+
+form ul li {
+	margin-bottom: 10px;
+}
+
+form ul li > label:first-child {
+	display: block;
+	font-size: 105%;
+	float: left;
+	width: 150px;
+}
+
+form ul li label.RadioLabel > input[type="radio"] {
+	vertical-align: bottom;
+}
+
+label.RadioLabel + label.RadioLabel {
+	margin-left: 10px;
+}
+
+form .Hint {
+	margin: 0 0 5px;
+	color: #888;
+	font-size: 90%;
+}
+
+form input.Number {
+	width: 50px;
+}
+
+.Button {
+	cursor: pointer;
+	margin: 10px 4px 0;
+	padding: 2px 4px;
+}
+
+#Foot {
+	padding-top: 20px;
+	color: #555;
+}
+
+.Info {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background: #fafafa;
+	padding: 2px 5px;
+}
+
+div > p:first-child {
+	margin-top: 0;
+}
+
+div > p:last-child {
+	margin-bottom: 0;
+}
+
+.Warning {
+	background: none repeat scroll 0 0 #FFEEEE;
+	border: 2px solid #FFBBBB;
+	border-radius: 2px 2px 2px 2px;
+	color: #DD0000;
+	margin: 10px 0;
+	padding: 6px 8px;
+}
+
+ul.Errors {
+	border: 1px solid #a00 !important;
+	background: #d50a0a !important;
+	padding: 6px 10px;
+	display: block;
+	border-radius: 2px;
+	margin: 10px 0;
+}
+
+ul.Errors li {
+	color: #fff !important;
+	background: #d50a0a !important;
+	text-align: left;
+	margin: 0;
+	font-size: 110%;
+}
+
+ul.DataList {
+	list-style: none;
+	padding: 0;
+}
+
+.DataList li .Item {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.DataList li.Item {
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #eee;
+	clear: both;
+	width: auto;
+}
+
+.DataList li.Item img.Photo {
+	float: left;
+	margin: 0 8px 8px 0;
+}
+
+.DataList li.Item:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.DecimalList {
+	margin: 10px 0;
+	list-style: decimal outside;
+	padding-left: 30px;
+}
+
+#programs_english #Content ul {
+	list-style-type: circle;
+}
+
+/* ================================== Index page */
+
+.ContentColumn h1,
+.ContentColumn h2 {
+	font-size: 16px;
+}
+
+.ContentColumn h3 {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* ==================== Debug */
+/*#Content {
+	border: 5px dotted red;
+}
+
+#Body {
+	border: 5px dotted green	
+}
+
+#Foot > .Row {
+	border: 5px dotted blue;
+}*/
